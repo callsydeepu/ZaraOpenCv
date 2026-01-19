@@ -1,0 +1,7 @@
+[2026-01-19 21:26:13,282] 13 src.logger - INFO - Pipeline started
+[2026-01-19 21:26:13,282] 15 src.logger - INFO - Reading image
+[2026-01-19 21:26:13,290] 22 src.logger - INFO - image loaded succesfully
+[2026-01-19 21:26:13,290] 11 src.logger - INFO - stage1_started
+[2026-01-19 21:26:13,293] 20 src.logger - INFO - Converted image from BGR to RGB
+[2026-01-19 21:26:13,320] 35 src.logger - INFO - Segmentation completed | mask_shape=(576, 1280) mask_dtype=float32
+[2026-01-19 21:26:25,377] 30 src.logger - INFO - Stage 1 test completed successfully
