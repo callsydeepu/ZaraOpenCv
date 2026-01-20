@@ -1,8 +1,0 @@
-[2026-01-19 21:21:53,063] 13 src.logger - INFO - Pipeline started
-[2026-01-19 21:21:53,063] 15 src.logger - INFO - Reading image
-[2026-01-19 21:21:53,072] 22 src.logger - INFO - image loaded succesfully
-[2026-01-19 21:21:53,072] 11 src.logger - INFO - stage1_started
-[2026-01-19 21:21:53,075] 20 src.logger - INFO - Converted image from BGR to RGB
-[2026-01-19 21:21:53,075] 42 src.logger - ERROR - Stage 1 failed: Person segmentation error
-[2026-01-19 21:21:53,075] 12 src.logger - ERROR - Error in [C:\Users\WELCOME\Desktop\zaraOpencv\src\stage1_segmentation.py] line 23: module 'mediapipe' has no attribute 'solutions'
-[2026-01-19 21:21:53,076] 33 src.logger - ERROR - Pipeline failed

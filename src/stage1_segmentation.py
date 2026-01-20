@@ -19,7 +19,7 @@ def run_stage1_segmentation(image:np.ndarray)->np.ndarray:
         img_rgb=cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
         logger.info("Converted image from BGR to RGB")
 
-        #load mediapipe selfie segmenttation model
+        #load mediapipe selfie segmentation model
         mp_selfie=mp.solutions.selfie_segmentation
         segmenter=mp_selfie.SelfieSegmentation(model_selection=1)
 
