@@ -31,7 +31,9 @@ def refine_mask(probability_mask:np.ndarray,threshold:float =0.5) -> np.ndarray:
         logger.info("Morph oppening applied")
 
         # 1️⃣ Close small holes
-        refined = cv2.morphologyEx(binary_mask, cv2.MORPH_CLOSE, kernel)
+        refined = cv2.morphologyEx(
+            binary_mask, cv2.MORPH_CLOSE, kernel
+            )
 
         # 2️⃣ Recover thin regions (hands, fingers)
         dist = cv2.distanceTransform(255 - refined, cv2.DIST_L2, 5)

@@ -9,7 +9,7 @@ def align_person(
         person_image:np.ndarray,
         person_masked:np.ndarray,
         bg_image:np.ndarray,
-        scale_ratio:float=1
+        scale_ratio:float=0.99
 ):
     try:
         logger.info("stage3-alignmen Started")
@@ -51,7 +51,7 @@ def align_person(
 
         #placement
 
-        top_left_x=(bg_w-new_w)//2
+        top_left_x=(bg_w-new_w+185)//2
         top_left_y=bg_h-new_h
 
         logger.info(
