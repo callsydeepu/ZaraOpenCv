@@ -1,0 +1,21 @@
+[2026-01-22 15:55:01,655] 15 src.logger - INFO - Pipeline started
+[2026-01-22 15:55:01,655] 15 src.logger - INFO - Reading image
+[2026-01-22 15:55:01,660] 22 src.logger - INFO - image loaded succesfully
+[2026-01-22 15:55:01,660] 15 src.logger - INFO - Reading image
+[2026-01-22 15:55:01,663] 22 src.logger - INFO - image loaded succesfully
+[2026-01-22 15:55:01,663] 11 src.logger - INFO - stage1_started
+[2026-01-22 15:55:01,669] 20 src.logger - INFO - Converted image from BGR to RGB
+[2026-01-22 15:55:01,691] 35 src.logger - INFO - Segmentation completed | mask_shape=(683, 1024) mask_dtype=float32
+[2026-01-22 15:55:01,693] 11 src.logger - INFO - stage2:started
+[2026-01-22 15:55:01,696] 21 src.logger - INFO - threshold applied at 0.5
+[2026-01-22 15:55:01,698] 31 src.logger - INFO - Morph oppening applied
+[2026-01-22 15:55:02,716] 15 src.logger - INFO - stage3-alignmen Started
+[2026-01-22 15:55:02,731] 22 src.logger - INFO - bounded successfully
+[2026-01-22 15:55:02,731] 28 src.logger - INFO - croped person and croped masked person
+[2026-01-22 15:55:02,731] 33 src.logger - INFO - bg height and width is (394, 700)
+[2026-01-22 15:55:02,733] 50 src.logger - INFO - Person resized relative to background
+[2026-01-22 15:55:02,733] 57 src.logger - INFO - Alignment complete | position=(187, 4)
+[2026-01-22 15:55:02,735] 56 src.logger - INFO - Pipeline completed successfully
+[2026-01-22 15:55:02,735] 16 src.logger - INFO - stage 4:compsiting_starting
+[2026-01-22 15:55:02,763] 66 src.logger - INFO - stage 4 completed
+[2026-01-22 15:56:27,584] 67 src.logger - INFO - all stages done
